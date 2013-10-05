@@ -1,3 +1,87 @@
 body{
-  /* rules go here */
+ 
+}
+
+div.main {
+  width: 600px;
+  margin-left: 25%;
+  margin-right: 25%;
+  height: 500px;
+}
+
+header{
+  height: 50px;
+}
+
+header span.svbtl{
+  font-size: 1.5em;
+  color: grey;
+}
+
+header span.svbtl:hover{
+  color: black;
+  font-weight:bold;
+  cursor: pointer;
+  border-left: 5px solid black;
+}
+
+header .dropdown {
+  position: absolute;
+  right: 25px;
+  background-image: url("images/smallarrowdown.png");
+  background-size: contain;
+  height: 50px;
+  width: 50px;
+  background-repeat: no-repeat;
+}
+
+header .dropdown:hover{
+  cursor: pointer;
+}
+
+header .links {
+  position: absolute;
+  left: 25%;
+}
+
+header a:link:hover{
+  color: #D0D0D0;
+}
+header a:link{
+  color: #DFDFDF;
+  margin: 20px;
+  font-size: 1.2em;
+}
+
+.hiddenMenu{
+  position: absolute;
+  right: 0px;
+  width: 200px;
+  border: 3px solid black;
+  border-radius: 3px;
+}
+
+.hide{
+  display: none;
+}
+
+.main article{
+  margin-bottom: 30px;
+}
+
+article h4{
+  font-size: 2em;
+  color:black;
+
+}
+
+article h4:hover{
+  color: red;
+  cursor: pointer;
+}
+
+article p{
+  line-height: 1.5em;
+  font-size: 1.2em;
+  color: grey;
 }

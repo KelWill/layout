@@ -1,3 +1,136 @@
 body{
-  /* rules go here */
 }
+*:focus{
+  outline: none;
+}
+.header {
+  height: 90px;
+  border-bottom: 3px solid gray;
+}
+
+.basecamp{
+  position: relative;
+  top: -25px;
+  font-size: 2em;
+  font-family: helvetica, verdana, serif;
+}
+
+.header  .nav{
+  text-align: center;
+  float: right;
+  margin: 10px;
+}
+
+img.logo{
+  height: 80px;
+  display: inline;
+}
+.header h3{
+  width: 100px;
+}
+.main {
+  margin: 0px auto;
+  max-width: 1000px;
+  width: 100%;
+}
+.ad { 
+  text-align: center;
+  font-weight: bold;
+}
+.left {
+  float: left;
+  width: 60%;
+  margin-right: 5%;
+  margin-top: 10px;  
+}
+
+img.testimonial{
+  float: right;
+  bottom: 0px;
+}
+
+.right {
+  float: right;
+  width: 35%;
+  margin-top: 10px;
+}
+
+.signup {
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  border: 5px solid black;
+  text-align: center;
+  width: 100%;
+  margin: auto;
+}
+
+.signup h3 {
+  color: red;
+  font-weight: bold;
+  width: 80%;
+  margin: auto;
+  margin-top: 10px;
+}
+.signup button{
+  background-color: green;
+  cursor: default;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+}
+
+.signup form{
+  text-align: left;
+  width: 80%;
+  margin: auto;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  border-radius: 2px;
+}
+
+.signup form input{
+  width: 100%;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  border-radius: 2px;
+}
+.signup form .button{
+  padding: 15px;
+  background-color: green;
+  background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#009900), to(#003300));
+  background-image: -webkit-linear-gradient(top, #009900, #003300);
+  background-image: -moz-linear-gradient(top, #009900, #003300);
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  font-size: 1.2em;
+  color: white;
+}
+
+.signup p {
+  font-size: .8em;
+  color: gray;
+  text-align: center;
+}
+
+.signup form input:focus{
+  border: 2px solid green;
+}
+
+.clear{
+  clear: both;
+  height: 5px;
+  width: 100%;
+  background-color: black;
+}
+
+.bottom {
+
+}
+.bottom h1 {
+  margin: 0px;
+  padding: 0px;
+  text-align: center;
+}
+

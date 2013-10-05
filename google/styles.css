@@ -8,8 +8,26 @@ body {
   height: 40px;
   width: 100%;
 }
+*:focus{
+  outline: none;
+}
+
 .header a {
   margin-right: 20px;
+}
+
+a {
+  color: grey;
+  text-decoration: none;
+  font-size: 15px;
+}
+
+a:visited {
+   color: grey
+}
+
+a:hover{
+  text-decoration: underline;
 }
 
 .main{
@@ -29,8 +47,15 @@ body {
 
 .searchField{
   width: 100%;
-  height: 2em;
   font-size: 20px;
+  border: 1px solid #D8D8D8;
+}
+
+.searchField:hover{
+  border: 1px solid #B2B2B2;
+}
+.searchField:focus{
+  border: 1px solid #488EF1;
 }
 .button{
   margin-top: 25px;

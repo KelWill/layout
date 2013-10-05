@@ -2,18 +2,27 @@
 <html>
   <head>
     <link rel="stylesheet" type="text/css" href="styles.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script>
+      var feelingLucky = ["I'm feeling lucky", "Well, do you punk??", "I know what I'm doing", "Don't press it!!", "Why not bing instead?", "I'm sorry Dave, I can't let you do that.", "I wouldn't"];
+     $(document).ready(function(){
+       $('.feelingLucky').on('mouseover', function(){
+         $(this).html(feelingLucky[Math.floor(Math.random()*feelingLucky.length)]);
+       });
+     }); 
+    </script>
   </head>
   <body>
     <div class = "header">
-     <a href="#">Login</a>
-     <a href="#">A different BUTTON!</a>
-     <a href="#">Google+ is a thing?</a>
+     <a href="#">+You</a>
+     <a href="#">Gmail</a>
+     <a href="#">Images</a>
     </div>
     <div class = "main">
       <img class = "logo" src = "images/logo.png" alt = "google" />
-      <input type="text" class = "searchField" placeholder="Do you really need to know?"/>
+      <form><input type="text" class = "searchField" placeholder="Do you really need to know?"/></form>
       <div class = "button"> Google Search </div> 
-      <div class = "button"> I'm feeling lucky </div>
+      <div class = "button feelingLucky"> I'm feeling lucky </div>
     </div>
   </body>
 </html>
